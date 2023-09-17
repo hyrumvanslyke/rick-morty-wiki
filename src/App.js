@@ -29,14 +29,14 @@ function App() {
       <div className="container">
         <div className="row">
           <Filters />
-          <div className="col-lg-8 col-12">
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="row">
               <Cards results={results} />
             </div>
           </div>
         </div>
       </div>
-      <Paginiation pageNumber={pageNumber} setPageNumber={setPageNumber} />
+      <Paginiation info={info} pageNumber={pageNumber} setPageNumber={setPageNumber} />
     </div>
   );
 }
