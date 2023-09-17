@@ -1,3 +1,5 @@
+This is a project i am working on to learn basics of react and its hooks.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
