@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap";
 import Filters from "./components/Filters/Filters";
 import Cards from "./components/Cards/Cards";
 import Paginiation from "./components/Pagination/Paginiation";
+import './App.css'
 function App() {
   let [pageNumber, setPageNumber] = useState(1);
   let [fetchedData, setFetchedData] = useState([]);
@@ -29,8 +30,8 @@ function App() {
       <div className="container">
         <div className="row">
           <Filters />
-          <div className="col-lg-4 col-md-6 col-12">
-            <div className="row">
+          <div className="">
+            <div className="card-container">
               <Cards results={results} />
             </div>
           </div>
