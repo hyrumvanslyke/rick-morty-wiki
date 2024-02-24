@@ -1,4 +1,4 @@
-This is a project i am working on to learn basics of react and its hooks. as well as css needs to be worked on more struggles with css continue but I wont let it beat me. everrr
+This is a project i am working on to learn basics of react and its hooks. as well as css needs to be worked on more struggles with css continue but I wont let it beat me. everrr!
 
 # Getting Started with Create React App
 
